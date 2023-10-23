@@ -906,5 +906,46 @@ span {
     width: 1120px;
     border:2px solid black;
     height: 500px;
-
+}
+.main-talking{
+    border: 2px solid black;
+    height: 500px;
+    width: 542.5px;
+    background-image: url(anai.jpeg);
+    background-position: CENTER;
+    background-size: 170%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.yria{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;   
+    color: #fff;
+    background-color: bottom rgba(0, 0, 0, 0.721) rgba(rgba(58, 53, 53, 0.029), );
+    /* linear-gradient(to bottom, rgba(20, 19, 19, 0), rgba(11, 11, 11, 0.399)) */
+}
+.gogo-cafe{
+    font-size: 10px;
+    background-color: #407ce8;
+    height: 26px;
+    width: 70px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif ;
+    border-radius: 5px ;
+}
+.yria>h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.more-gogo{
+    display: flex;
+    color: #fff;
+    gap: 5px;
+    align-items: center;
 }
